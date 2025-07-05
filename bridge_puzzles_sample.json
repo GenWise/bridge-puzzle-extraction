@@ -1,0 +1,22 @@
+[
+  {
+    "problem_number": 1,
+    "problem": {
+      "game_type": "Rubber bridge",
+      "vulnerability": "East-West vulnerable",
+      "north_cards": "♠A86 ♦2652 ♦ 10 4 ♣AT6432",
+      "south_cards": "♠95 ♥AQ54 ♦A J 3 ♣KQ♦8",
+      "east_cards": "iGNT P♠ss 3 NT P♠ss P♠ss P♠ss",
+      "west_cards": "",
+      "bidding": "NORTH \n®A86 \nO2652 \n© 10 4 \n&AT6432 \nSOUTH \n@95 \nYAQ54 \nOA J 3 \n&KQO8 \nSOUTH \nWEST \nNORTH \nEAST \niGNT \nPass \n3 NT \nPass \nPass \nPass",
+      "lead": "West leads the spade king.",
+      "task": "Plan the play.",
+      "raw_text": "PROBLEM 1 \nRubber bridge \nEast-West vulnerable \nNORTH \n®A86 \nO2652 \n© 10 4 \n&AT6432 \nSOUTH \n@95 \nYAQ54 \nOA J 3 \n&KQO8 \nSOUTH \nWEST \nNORTH \nEAST \niGNT \nPass \n3 NT \nPass \nPass \nPass \nWest leads the spade king. \nPlan the play."
+    },
+    "solution": {
+      "card_layout": {},
+      "explanation": "♠A86 MiG♠e ♦ 104 ♣AT6432 ♠kKQJ103 ♠♣742 ♥K 108 ♦PT ♦L♦re CKs9. 8,612 ♣j105 je — ♠95 ♥AQ54 ♦ATS ♣KQ98 Sout♣ seems to ♣♠ve nine e♠sy tricks, but t♣ere is♠ fly in t♣e ointment: t♣e club suit is blocked. T♣e block will not prevent running t♣e suit if t♣e opponents’ clubs ♠re split 2-1. In t♣♠t c♠se, decl♠rer c♠n win t♣e first two club tricks wit♣ t♣e king ♠nd queen, ex♣♠usting t♣e E♠st-West clubs, t♣en win t♣e t♣ird trick in clubs wit♣ t♣e nine, ♠nd fin♠lly overt♠ke t♣e eig♣t wit♣ t♣e ♠ce. However, ♠ 3-0 club split will doom t♣is pl♠n, ♠nd decl♠rer s♣ould t♠ke me♠sures to gu♠rd ♠g♠inst t♣is pos- sibility. T♣e simplest w♠y to overcome t♣e problem is to disc♠rd one of Sout♣’s clubs. T♣is c♠n be ♠ccomplis♣ed only t♣roug♣ one suit, specs so Sout♣ s♣ould duck t♣e opening le♠d. If West le♠ds ♠not♣er sp♠de, decl♠rer ducks ♠g♠in ♠nd c♠n now t♠ke nine tricks by pl♠ying king-queen-♠ce of clubs ♠nd t♣rowing ♣is l♠st club on t♣e sp♠de ♠ce. If West s♣ifts, decl♠rer wins ♠nd ducks ♠not♣er sp♠de ♣imself, ♠c♣ieving t♣e s♠me position. 8",
+      "raw_text": "SOLUTION 1 \n@A86 \nMiGae \n© 104 \nhAT6432 \n@kKQJ103 \na&742 \nYK 108 \nOPT \nOLOre \nCKs9. 8,612 \n&j105 \nje — \n@95 \nYAQ54 \nOATS \n&KQ98 \nSouth seems to have nine easy tricks, but there isa fly in \nthe ointment: the club suit is blocked. The block will not \nprevent running the suit if the opponents’ clubs are split \n2-1. In that case, declarer can win the first two club tricks \nwith the king and queen, exhausting the East-West clubs, \nthen win the third trick in clubs with the nine, and finally \novertake the eight with the ace. \nHowever, a 3-0 club split will doom this plan, and \ndeclarer should take measures to guard against this pos- \nsibility. The simplest way to overcome the problem is to \ndiscard one of South’s clubs. This can be accomplished \nonly through one suit, specs so South should duck the \nopening lead. \nIf West leads another spade, declarer ducks again and \ncan now take nine tricks by playing king-queen-ace of \nclubs and throwing his last club on the spade ace. \nIf West shifts, declarer wins and ducks another spade \nhimself, achieving the same position. \n8"
+    }
+  }
+]

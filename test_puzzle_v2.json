@@ -1,0 +1,75 @@
+[
+  {
+    "problem_number": 1,
+    "problem": {
+      "ProblemNumber": 1,
+      "GameType": "Rubber bridge",
+      "Vulnerability": "East-West vulnerable",
+      "CardLayout": {
+        "North": {
+          "Spades": "A 8 6",
+          "Hearts": "6 2",
+          "Diamonds": "10 4",
+          "Clubs": "A 7 6 4 3 2"
+        },
+        "South": {
+          "Spades": "9 5",
+          "Hearts": "A Q 5 4",
+          "Diamonds": "A J 3",
+          "Clubs": "K Q 9 8"
+        },
+        "East": null,
+        "West": null
+      },
+      "BiddingSequence": [
+        {
+          "South": "1 NT",
+          "West": "Pass",
+          "North": "3 NT",
+          "East": "Pass"
+        },
+        {
+          "South": "Pass",
+          "West": "Pass"
+        }
+      ],
+      "OpeningLead": "♠K",
+      "Task": "Plan the play."
+    },
+    "solution": {
+      "solutionNumber": 1,
+      "cardLayout": {
+        "north": {
+          "spades": "A 8 6",
+          "hearts": "6 2",
+          "diamonds": "10 4",
+          "clubs": "A 7 6 4 3 2"
+        },
+        "south": {
+          "spades": "K Q J 10 3",
+          "hearts": "K 10 8",
+          "diamonds": "Q 5",
+          "clubs": "J 10 5"
+        },
+        "east": {
+          "spades": "7 4 2",
+          "hearts": "J 9 7 3",
+          "diamonds": "K 9 8 7 6 2",
+          "clubs": "—"
+        },
+        "west": {
+          "spades": "9 5",
+          "hearts": "A Q 5 4",
+          "diamonds": "A J 3",
+          "clubs": "K Q 9 8"
+        }
+      },
+      "explanation": "South seems to have nine easy tricks, but there is a fly in the ointment: the club suit is blocked. The block will not prevent running the suit if the opponents' clubs are split 2-1. In that case, declarer can win the first two club tricks with the king and queen, exhausting the East-West clubs, then win the third trick in clubs with the nine, and finally overtake the eight with the ace.\nHowever, a 3-0 club split will doom this plan, and declarer should take measures to guard against this possibility. The simplest way to overcome the problem is to discard one of South's clubs. This can be accomplished only through one suit, spades, so South should duck the opening lead.\nIf West leads another spade, declarer ducks again and can now take nine tricks by playing king-queen-ace of clubs and throwing his last club on the spade ace.\nIf West shifts, declarer wins and ducks another spade himself, achieving the same position.",
+      "keyTechniques": [
+        "Ducking",
+        "Unblocking",
+        "Discarding"
+      ]
+    }
+  }
+]

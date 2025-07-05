@@ -1,0 +1,23 @@
+{
+  "id": "msg_01JEk2LigkmsxpBskNuygRMV",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"ProblemNumber\": 1,\n  \"GameType\": \"Rubber bridge\",\n  \"Vulnerability\": \"East-West vulnerable\",\n  \"CardLayout\": {\n    \"North\": {\n      \"Spades\": \"A 8 6\",\n      \"Hearts\": \"6 2\",\n      \"Diamonds\": \"10 4\",\n      \"Clubs\": \"A 7 6 4 3 2\"\n    },\n    \"South\": {\n      \"Spades\": \"9 5\",\n      \"Hearts\": \"A Q 5 4\",\n      \"Diamonds\": \"A J 3\",\n      \"Clubs\": \"K Q 9 8\"\n    },\n    \"East\": null,\n    \"West\": null\n  },\n  \"BiddingSequence\": [\n    {\n      \"South\": \"1 NT\",\n      \"West\": \"Pass\",\n      \"North\": \"3 NT\",\n      \"East\": \"Pass\"\n    },\n    {\n      \"South\": \"Pass\",\n      \"West\": \"Pass\"\n    }\n  ],\n  \"OpeningLead\": \"\u2660K\",\n  \"Task\": \"Plan the play.\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-opus-20240229",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 1277,
+    "output_tokens": 286,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

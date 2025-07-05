@@ -1,0 +1,6 @@
+PyMuPDF==1.22.5
+argparse
+Pillow
+anthropic>=0.18.0
+requests
+python-tk  # For tkinter, though it's usually included with Python 

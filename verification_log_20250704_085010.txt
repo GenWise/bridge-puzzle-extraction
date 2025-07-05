@@ -1,0 +1,1033 @@
+Verification Log - 2025-07-04 08:50:10
+Randomly selected puzzles: [73, 27, 72, 3, 13, 85, 42, 60, 41, 52]
+
+Puzzle #73 Verification:
+{
+  "puzzle_number": 73,
+  "verification_time": "2025-07-04 08:50:10",
+  "problem": {
+    "image_path": "output/images/page_155.png",
+    "verification": {
+      "status": "verification_needed",
+      "message": "Manual verification required",
+      "extracted_data": {
+        "problemNumber": 73,
+        "gameType": "Rubber bridge",
+        "vulnerability": "Neither side vulnerable",
+        "cardLayout": {
+          "north": {
+            "\u2660": "Q 4 3 2",
+            "\u2665": "8 6 4",
+            "\u2666": "K Q",
+            "\u2663": "K J 9 8"
+          },
+          "south": {
+            "\u2660": "K 10 6 5",
+            "\u2665": "A J",
+            "\u2666": "J 6 2",
+            "\u2663": "A Q 10 2"
+          },
+          "east": {},
+          "west": {}
+        },
+        "biddingSequence": [
+          {
+            "south": "-",
+            "west": "Pass",
+            "north": "Pass",
+            "east": "Pass"
+          },
+          {
+            "south": "1 NT",
+            "west": "Pass",
+            "north": "2 \u2663",
+            "east": "Pass"
+          },
+          {
+            "south": "2 \u2660",
+            "west": "Pass",
+            "north": "4 \u2660",
+            "east": "Pass"
+          },
+          {
+            "south": "Pass",
+            "west": "Pass",
+            "north": "",
+            "east": ""
+          }
+        ],
+        "openingLead": "\u2665K",
+        "taskDescription": "Plan the play.",
+        "image_path": "output/images/page_155.png",
+        "page_number": 155
+      }
+    }
+  },
+  "solution": {
+    "image_path": "output/images/page_156.png",
+    "verification": {
+      "status": "verification_needed",
+      "message": "Manual verification required",
+      "extracted_data": {
+        "solutionNumber": 73,
+        "cardLayout": {
+          "north": {
+            "spades": "\u2660 Q 4 3 2",
+            "hearts": "\u2665 8 6 4",
+            "diamonds": "\u2666 K Q",
+            "clubs": "\u2663 K J 9 8"
+          },
+          "east": {
+            "spades": "\u2660 A 8",
+            "hearts": "\u2665 7 5 3 2",
+            "diamonds": "\u2666 10 9 5 3",
+            "clubs": "\u2663 7 5 3"
+          },
+          "south": {
+            "spades": "\u2660 K 10 6 5",
+            "hearts": "\u2665 A J",
+            "diamonds": "\u2666 J 6 2",
+            "clubs": "\u2663 A Q 10 2"
+          },
+          "west": {
+            "spades": "\u2660 J 9 7",
+            "hearts": "\u2665 K Q 10 9",
+            "diamonds": "\u2666 A 8 7 4",
+            "clubs": "\u2663 6 4"
+          }
+        },
+        "solutionExplanation": "After winning the first trick, declarer should drive out the ace of diamonds. This is not because he is in a great hurry to establish diamonds\u2014rather, he wants to discover who holds the diamond ace before leading trumps. If East shows up with the diamond ace, declarer should take the normal play in trumps\u2014leading to the queen and then to the ten. But if West holds the diamond ace\u2014 marking East with the trump ace (because of West's failure to open the bidding)\u2014declarer should play trumps by leading first to the king and, if that holds, ducking the next round (unless West plays the jack). South must assume trumps are 3-2. If East is known to hold the ace, playing to the queen and ten will win if East holds A-J, A-J-9, A-J-8, A-J-7 (four cases). But leading to the king first will win when East has A-J, A-9, A-8, A-7, A-9-8, A-9-7, A-8-7 (seven cases).",
+        "keyTechniques": [
+          "Card discovery",
+          "Inference from bidding",
+          "Trump management",
+          "Probability-based play"
+        ],
+        "image_path": "output/images/page_156.png",
+        "page_number": 156
+      }
+    }
+  }
+}
+
+Puzzle #27 Verification:
+{
+  "puzzle_number": 27,
+  "verification_time": "2025-07-04 08:50:10",
+  "problem": {
+    "image_path": "output/images/page_63.png",
+    "verification": {
+      "status": "verification_needed",
+      "message": "Manual verification required",
+      "extracted_data": {
+        "problemNumber": 27,
+        "gameType": "Rubber bridge",
+        "vulnerability": "Neither side vulnerable",
+        "cardLayout": {
+          "north": {
+            "spades": "K 6 4",
+            "hearts": "K J 9 5",
+            "diamonds": "Q 10 2",
+            "clubs": "K J 4"
+          },
+          "south": {
+            "spades": "A Q 2",
+            "hearts": "A Q 10 4",
+            "diamonds": "K 4 3",
+            "clubs": "A Q 10"
+          },
+          "east": {},
+          "west": {}
+        },
+        "biddingSequence": [
+          {
+            "south": "2NT",
+            "west": "Pass",
+            "north": "3\u2663",
+            "east": "Pass"
+          },
+          {
+            "south": "3\u2665",
+            "west": "Pass",
+            "north": "6\u2665",
+            "east": "(All pass)"
+          }
+        ],
+        "openingLead": "\u2660J",
+        "taskDescription": "In which hand should he take the final black-suit trick? If East throws a club on the second spade, and West throws a spade on the third club, how should South play the diamonds?",
+        "image_path": "output/images/page_63.png",
+        "page_number": 63
+      }
+    }
+  },
+  "solution": {
+    "image_path": "output/images/page_64.png",
+    "verification": {
+      "status": "verification_needed",
+      "message": "Manual verification required",
+      "extracted_data": {
+        "solutionNumber": 27,
+        "cardLayout": {
+          "north": {
+            "spades": "\u2660 K 6 4",
+            "hearts": "\u2665 K J 9 5",
+            "diamonds": "\u2666 Q 10 2",
+            "clubs": "\u2663 K J 4"
+          },
+          "east": {
+            "spades": "\u2660 8",
+            "hearts": "\u2665 8 7",
+            "diamonds": "\u2666 A J 9 8 6",
+            "clubs": "\u2663 9 6 5 3 2"
+          },
+          "south": {
+            "spades": "\u2660 A Q 2",
+            "hearts": "\u2665 A Q 10 4",
+            "diamonds": "\u2666 K 4 3",
+            "clubs": "\u2663 A Q 10"
+          },
+          "west": {
+            "spades": "\u2660 J 10 9 7 5 3",
+            "hearts": "\u2665 6 3 2",
+            "diamonds": "\u2666 7 5",
+            "clubs": "\u2663 8 7"
+          }
+        },
+        "solutionExplanation": "South should be in his own hand after taking his black-suit tricks. In an elimination position it is as effective to lead the diamond king as to lead up to it. But South may want to lead towards dummy's queen of diamonds, rather than lead the queen itself (in case West has A x). When the complete count becomes available, and West is known to hold a doubleton diamond, the best play in diamonds is to lead low to the queen, and, if East wins and returns a diamond, to duck it to dummy's ten. This wins in 16 cases out of a possible 21 (West has AJ, Ax, or xx) whereas leading the king wins in only 6 cases out of 21 (West has AJ or Jx). Note that on a double-dummy basis the contract is defeated by a diamond lead, which prevents declarer from developing the end-position.",
+        "keyTechniques": [
+          "elimination play",
+          "card counting",
+          "probability analysis",
+          "end-position development"
+        ],
+        "image_path": "output/images/page_64.png",
+        "page_number": 64
+      }
+    }
+  }
+}
+
+Puzzle #72 Verification:
+{
+  "puzzle_number": 72,
+  "verification_time": "2025-07-04 08:50:10",
+  "problem": {
+    "image_path": "output/images/page_153.png",
+    "verification": {
+      "status": "verification_needed",
+      "message": "Manual verification required",
+      "extracted_data": {
+        "problemNumber": 72,
+        "gameType": "Rubber bridge",
+        "vulnerability": "Neither side vulnerable",
+        "cardLayout": {
+          "north": {
+            "spades": "\u2660 10 9 4 2",
+            "hearts": "\u2665 6",
+            "diamonds": "\u2666 9 3 2",
+            "clubs": "\u2663 K Q 7 4 3"
+          },
+          "south": {
+            "spades": "\u2660 K J",
+            "hearts": "\u2665 A 8 5 2",
+            "diamonds": "\u2666 A K Q J 10",
+            "clubs": "\u2663 6 2"
+          },
+          "east": {},
+          "west": {}
+        },
+        "biddingSequence": [
+          {
+            "south": "-",
+            "west": "Pass",
+            "north": "Pass",
+            "east": "Pass"
+          },
+          {
+            "south": "1 \u2666",
+            "west": "Pass",
+            "north": "1 \u2660",
+            "east": "Pass"
+          },
+          {
+            "south": "2 \u2665",
+            "west": "Pass",
+            "north": "3 \u2666",
+            "east": "Pass"
+          },
+          {
+            "south": "Pass",
+            "west": "Pass"
+          }
+        ],
+        "openingLead": "\u26665",
+        "taskDescription": "Plan the play.",
+        "image_path": "output/images/page_153.png",
+        "page_number": 153
+      }
+    }
+  },
+  "solution": {
+    "image_path": "output/images/page_154.png",
+    "verification": {
+      "status": "verification_needed",
+      "message": "Manual verification required",
+      "extracted_data": {
+        "solutionNumber": 72,
+        "cardLayout": {
+          "north": {
+            "spades": "\u2660 10 9 4 2",
+            "hearts": "\u2665 6",
+            "diamonds": "\u2666 9 3 2",
+            "clubs": "\u2663 K Q 7 4 3"
+          },
+          "east": {
+            "spades": "\u2660 8 7 6 3",
+            "hearts": "\u2665 Q 10 9 7 3",
+            "diamonds": "\u2666 8 6",
+            "clubs": "\u2663 A 8"
+          },
+          "south": {
+            "spades": "\u2660 K J",
+            "hearts": "\u2665 A 8 5 2",
+            "diamonds": "\u2666 A K Q J 10",
+            "clubs": "\u2663 6 2"
+          },
+          "west": {
+            "spades": "\u2660 A Q 5",
+            "hearts": "\u2665 K J 4",
+            "diamonds": "\u2666 7 5 4",
+            "clubs": "\u2663 J 10 9 5"
+          }
+        },
+        "solutionExplanation": "South has several lines of play open to him. He could ruff a heart in dummy immediately but the opponents will almost surely lead another trump before South can return to his hand for a second heart ruff. Alternatively, South could attempt to establish dummy's club suit. This, however, depends on a very favorable lie of the enemy clubs\u2014and even if South is lucky he will not be sure how to proceed if the first club holds in dummy. In either of the above attempts, South may be forced to depend on making a quick spade trick, and may be defeated if he misguesses spades or if West has both honors. If instead, however, South sets out immediately to establish a spade trick\u2014by leading the spade king from his hand at the second trick\u2014only a highly adverse distribution of the unseen cards can defeat him. If, for example, East-West win and lead another trump, declarer can knock out the remaining spade honor, with both a trump in dummy and the heart ace available to stop the heart suit.",
+        "keyTechniques": [
+          "Establishing a spade trick",
+          "Trump management",
+          "Entry management"
+        ],
+        "image_path": "output/images/page_154.png",
+        "page_number": 154
+      }
+    }
+  }
+}
+
+Puzzle #3 Verification:
+{
+  "puzzle_number": 3,
+  "verification_time": "2025-07-04 08:50:10",
+  "problem": {
+    "image_path": "output/images/page_15.png",
+    "verification": {
+      "status": "verification_needed",
+      "message": "Manual verification required",
+      "extracted_data": {
+        "problemNumber": 3,
+        "gameType": "Rubber bridge",
+        "vulnerability": "East-West vulnerable",
+        "cardLayout": {
+          "north": {
+            "spades": "A Q",
+            "hearts": "A J",
+            "diamonds": "K Q 8 4 3",
+            "clubs": "K Q 10 3"
+          },
+          "south": {
+            "spades": "K J",
+            "hearts": "K Q",
+            "diamonds": "A 10 5 2",
+            "clubs": "A 9 5 4 2"
+          },
+          "east": {},
+          "west": {}
+        },
+        "biddingSequence": [
+          [
+            "SOUTH",
+            "WEST",
+            "NORTH",
+            "EAST"
+          ],
+          [
+            "1 NT",
+            "Pass",
+            "7 NT",
+            "Pass"
+          ],
+          [
+            "Pass",
+            "Pass",
+            "",
+            ""
+          ]
+        ],
+        "openingLead": "\u266010",
+        "taskDescription": "Plan the play.",
+        "image_path": "output/images/page_15.png",
+        "page_number": 15
+      }
+    }
+  },
+  "solution": {
+    "image_path": "output/images/page_16.png",
+    "verification": {
+      "status": "verification_needed",
+      "message": "Manual verification required",
+      "extracted_data": {
+        "solutionNumber": 3,
+        "cardLayout": {
+          "north": {
+            "spades": "\u2660 A Q",
+            "hearts": "\u2665 A J",
+            "diamonds": "\u2666 K Q 8 4 3",
+            "clubs": "\u2663 K Q 10 3"
+          },
+          "east": {
+            "spades": "\u2660 6 5 4 3 2",
+            "hearts": "\u2665 9 8 7 6 5 4 3 2",
+            "diamonds": "\u2666 \u2014",
+            "clubs": "\u2663 \u2014"
+          },
+          "south": {
+            "spades": "\u2660 K J",
+            "hearts": "\u2665 K Q",
+            "diamonds": "\u2666 A 10 5 2",
+            "clubs": "\u2663 A 9 5 4 2"
+          },
+          "west": {
+            "spades": "\u2660 10 9 8 7",
+            "hearts": "\u2665 10",
+            "diamonds": "\u2666 J 9 7 6",
+            "clubs": "\u2663 J 8 7 6"
+          }
+        },
+        "solutionExplanation": "This contract looks easy, but is actually tricky. The critical fact is that the club and diamond suits have different properties. Declarer is sure to pick up the club suit even if one opponent has all four missing clubs\u2014if he leads the king or queen first. But in diamonds, if the suit is 4-0 declarer must guess how to play the suit\u2014king or queen first if he judges East may have all four; ace first, if he judges West may hold all four. Declarer should reserve his decision in diamonds as long as possible to get information to help him resolve this guess. After playing clubs and discovering West has all four, it cannot hurt him to play off his major-suit winners. In the course of doing this, he discovers, with the cards as in the diagram, that East started with eight hearts and at least two spades, so it is impossible for him to have started with four diamonds. So, declarer should cash the diamond ace first. An optimal play sequence would be: spade ace, club king, heart king, club finesse, heart ace, spade king, diamond ace, diamond finesse, club queen, clubs in the South hand, diamond.",
+        "keyTechniques": [
+          "finesse",
+          "counting distribution",
+          "suit management"
+        ],
+        "image_path": "output/images/page_16.png",
+        "page_number": 16
+      }
+    }
+  }
+}
+
+Puzzle #13 Verification:
+{
+  "puzzle_number": 13,
+  "verification_time": "2025-07-04 08:50:10",
+  "problem": {
+    "image_path": "output/images/page_35.png",
+    "verification": {
+      "status": "verification_needed",
+      "message": "Manual verification required",
+      "extracted_data": {
+        "problemNumber": 13,
+        "gameType": "Rubber bridge",
+        "vulnerability": "Neither side vulnerable",
+        "cardLayout": {
+          "north": {
+            "spades": "Q 8 2",
+            "hearts": "J 9 7 5",
+            "diamonds": "A 2",
+            "clubs": "Q 6 4 2"
+          },
+          "south": {
+            "spades": "K 6 4",
+            "hearts": "A Q 10 6",
+            "diamonds": "6 3",
+            "clubs": "A K 10 8"
+          },
+          "east": {},
+          "west": {}
+        },
+        "biddingSequence": [
+          {
+            "south": "1\u2665"
+          },
+          {
+            "west": "1\u2660"
+          },
+          {
+            "north": "2\u2665"
+          },
+          {
+            "east": "Pass"
+          },
+          {
+            "south": "2NT"
+          },
+          {
+            "west": "Pass"
+          },
+          {
+            "north": "4\u2665"
+          },
+          {
+            "east": "(All Pass)"
+          }
+        ],
+        "openingLead": "\u2666K",
+        "taskDescription": "Plan the play.",
+        "image_path": "output/images/page_35.png",
+        "page_number": 35
+      }
+    }
+  },
+  "solution": {
+    "image_path": "output/images/page_36.png",
+    "verification": {
+      "status": "verification_needed",
+      "message": "Manual verification required",
+      "extracted_data": {
+        "solutionNumber": 13,
+        "cardLayout": {
+          "north": {
+            "spades": "\u2660 Q 8 2",
+            "hearts": "\u2665 J 9 7 5",
+            "diamonds": "\u2666 A 2",
+            "clubs": "\u2663 Q 6 4 2"
+          },
+          "east": {
+            "spades": "\u2660 A 7",
+            "hearts": "\u2665 K",
+            "diamonds": "\u2666 10 9 7 5 4",
+            "clubs": "\u2663 J 9 7 5 3"
+          },
+          "south": {
+            "spades": "\u2660 K 6 4",
+            "hearts": "\u2665 A Q 10 6",
+            "diamonds": "\u2666 6 3",
+            "clubs": "\u2663 A K 10 8"
+          },
+          "west": {
+            "spades": "\u2660 J 10 9 5 3",
+            "hearts": "\u2665 8 4 3 2",
+            "diamonds": "\u2666 K Q J 8",
+            "clubs": "\u2663 \u2014"
+          }
+        },
+        "solutionExplanation": "Even though South is certain to pick up the club suit (West can hardly have four clubs), he needs a spade trick to score game. Thus, the spade ace must be dislodged before trumps are drawn. If declarer knocks out the ace of spades before drawing trumps, the only danger to the contract is a club ruff. If either opponent is void of clubs it is surely West (who has four hearts, presumably four or more spades, and at least two diamonds). Therefore South should play the six of hearts, win as cheaply as possible in dummy, and lead spades through East. If East takes the ace of spades and gives West a club ruff, the contract is still safe because declarer now has two spade tricks. If South is allowed to win the king of spades, he can draw the last trump and proceed to tackle clubs. And if West holds the ace of spades, there is no danger to the contract in any event.",
+        "keyTechniques": [
+          "Timing",
+          "Suit establishment",
+          "Trump management"
+        ],
+        "image_path": "output/images/page_36.png",
+        "page_number": 36
+      }
+    }
+  }
+}
+
+Puzzle #85 Verification:
+{
+  "puzzle_number": 85,
+  "verification_time": "2025-07-04 08:50:10",
+  "problem": {
+    "image_path": "output/images/page_179.png",
+    "verification": {
+      "status": "verification_needed",
+      "message": "Manual verification required",
+      "extracted_data": {
+        "problemNumber": 85,
+        "gameType": "Rubber bridge",
+        "vulnerability": "East-West vulnerable",
+        "cardLayout": {
+          "north": {
+            "spades": "3 2",
+            "hearts": "Q J 10 9 6",
+            "diamonds": "J 10 8 6",
+            "clubs": "6 3"
+          },
+          "south": {
+            "spades": "A K 8 7 5 4",
+            "hearts": "A K",
+            "diamonds": "A K Q 7 2",
+            "clubs": "\u2014"
+          },
+          "east": {},
+          "west": {}
+        },
+        "biddingSequence": [
+          {
+            "south": "2 \u2660",
+            "west": "Pass",
+            "north": "2 NT",
+            "east": "Pass"
+          },
+          {
+            "south": "3 \u25c7",
+            "west": "Pass",
+            "north": "4 \u25c7",
+            "east": "Pass"
+          },
+          {
+            "south": "7 \u25c7",
+            "west": "(All pass)"
+          }
+        ],
+        "openingLead": "\u2663Q",
+        "taskDescription": "Plan the play.",
+        "image_path": "output/images/page_179.png",
+        "page_number": 179
+      }
+    }
+  },
+  "solution": {
+    "image_path": "output/images/page_180.png",
+    "verification": {
+      "status": "verification_needed",
+      "message": "Manual verification required",
+      "extracted_data": {
+        "solutionNumber": 85,
+        "cardLayout": {
+          "north": {
+            "spades": "\u2660 3 2",
+            "hearts": "\u2665 Q J 10 9 6",
+            "diamonds": "\u2666 J 10 8 6",
+            "clubs": "\u2663 6 3"
+          },
+          "east": {
+            "spades": "\u2660 J 10 9 6",
+            "hearts": "\u2665 8 7 5 4 3",
+            "diamonds": "\u2666 \u2014",
+            "clubs": "\u2663 A K 9 7"
+          },
+          "south": {
+            "spades": "\u2660 A K 8 7 5 4",
+            "hearts": "\u2665 A K",
+            "diamonds": "\u2666 A K Q 7 2",
+            "clubs": "\u2663 \u2014"
+          },
+          "west": {
+            "spades": "\u2660 Q",
+            "hearts": "\u2665 2",
+            "diamonds": "\u2666 9 5 4 3",
+            "clubs": "\u2663 Q J 10 8 5 4 2"
+          }
+        },
+        "solutionExplanation": "There is no problem unless diamonds are 4-0. What can declarer do against such distribution? South should ruff the first trick with a high trump and cash a high trump from the dummy. If East shows out, declarer can ruff a club high, cash the heart ace, lead a high trump and his remaining low diamond to dummy, and draw trumps, unblocking the heart king on the last trump. This guards against a 5-1 heart split. If East holds all four trumps, declarer must attack spades.",
+        "keyTechniques": [
+          "ruffing",
+          "unblocking",
+          "trump management",
+          "handling bad distributions"
+        ],
+        "image_path": "output/images/page_180.png",
+        "page_number": 180
+      }
+    }
+  }
+}
+
+Puzzle #42 Verification:
+{
+  "puzzle_number": 42,
+  "verification_time": "2025-07-04 08:50:10",
+  "problem": {
+    "image_path": "output/images/page_93.png",
+    "verification": {
+      "status": "verification_needed",
+      "message": "Manual verification required",
+      "extracted_data": {
+        "problemNumber": 42,
+        "gameType": "Rubber bridge",
+        "vulnerability": "Both sides vulnerable",
+        "cardLayout": {
+          "north": {
+            "spades": "A 10 6 2",
+            "hearts": "A",
+            "diamonds": "K 8 5 2",
+            "clubs": "A 6 4 2"
+          },
+          "south": {
+            "spades": "K 7 5 4",
+            "hearts": "\u2014",
+            "diamonds": "A Q 7 6 4 3",
+            "clubs": "K J 8"
+          },
+          "east": {},
+          "west": {}
+        },
+        "biddingSequence": [
+          {
+            "south": "\u2014",
+            "west": "\u2014",
+            "north": "1 \u2663",
+            "east": "Pass"
+          },
+          {
+            "south": "1 \u2666",
+            "west": "Pass",
+            "north": "3 \u2666",
+            "east": "Pass"
+          },
+          {
+            "south": "6 \u2666",
+            "west": "(All Pass)"
+          }
+        ],
+        "openingLead": "\u2666J",
+        "taskDescription": "How can South make certain of his contract?",
+        "image_path": "output/images/page_93.png",
+        "page_number": 93
+      }
+    }
+  },
+  "solution": {
+    "image_path": "output/images/page_94.png",
+    "verification": {
+      "status": "verification_needed",
+      "message": "Manual verification required",
+      "extracted_data": {
+        "solutionNumber": 42,
+        "cardLayout": {
+          "north": {
+            "spades": "\u2660 A 10 6 2",
+            "hearts": "\u2665 A",
+            "diamonds": "\u2666 K 8 5 2",
+            "clubs": "\u2663 A 6 4 2"
+          },
+          "east": {
+            "spades": "\u2660 Q J 9 8",
+            "hearts": "\u2665 K Q 10 8 6 4",
+            "diamonds": "\u2666 9",
+            "clubs": "\u2663 9 3"
+          },
+          "south": {
+            "spades": "\u2660 K 7 5 4",
+            "hearts": "\u2665 \u2014",
+            "diamonds": "\u2666 A Q 7 6 4 3",
+            "clubs": "\u2663 K J 8"
+          },
+          "west": {
+            "spades": "\u2660 3",
+            "hearts": "\u2665 J 9 7 5 3 2",
+            "diamonds": "\u2666 J 10",
+            "clubs": "\u2663 Q 10 7 5"
+          }
+        },
+        "solutionExplanation": "Declarer should draw two trumps ending in dummy, cash the ace of hearts for a spade discard, lead a spade to the king, and play a spade towards dummy. If West plays an honor declarer wins with dummy's ace and can later lead towards dummy's spade ten to produce a discard for his losing club. If West plays a small spade on the second round, declarer picks up the suit with one loser by finessing dummy's ten. If West shows out on the second spade, declarer wins with dummy's ace and leads a club, just covering whatever card East plays. If West wins he is endplayed and must give declarer a ruff-sluff or lead into a club tenace, either of which will allow declarer to dispose of his remaining losing spade.",
+        "keyTechniques": [
+          "trump management",
+          "finesse",
+          "endplay",
+          "discard",
+          "tenace"
+        ],
+        "image_path": "output/images/page_94.png",
+        "page_number": 94
+      }
+    }
+  }
+}
+
+Puzzle #60 Verification:
+{
+  "puzzle_number": 60,
+  "verification_time": "2025-07-04 08:50:10",
+  "problem": {
+    "image_path": "output/images/page_129.png",
+    "verification": {
+      "status": "verification_needed",
+      "message": "Manual verification required",
+      "extracted_data": {
+        "problemNumber": 60,
+        "gameType": "Matchpoints",
+        "vulnerability": "East-West vulnerable",
+        "cardLayout": {
+          "north": {
+            "spades": "K 5 4 3",
+            "hearts": "K 8",
+            "diamonds": "K Q",
+            "clubs": "A 6 4 3 2"
+          },
+          "south": {
+            "spades": "A Q 10 6 2",
+            "hearts": "5 4 3 2",
+            "diamonds": "A J 6",
+            "clubs": "9"
+          },
+          "east": {},
+          "west": {}
+        },
+        "biddingSequence": [
+          {
+            "south": "1 \u2660",
+            "west": "Pass",
+            "north": "3 \u2663",
+            "east": "Pass"
+          },
+          {
+            "south": "3 \u2660",
+            "west": "Pass",
+            "north": "4 \u2660",
+            "east": "(All pass)"
+          }
+        ],
+        "openingLead": "\u2665A",
+        "taskDescription": "What is the best play for an overtrick?",
+        "image_path": "output/images/page_129.png",
+        "page_number": 129
+      }
+    }
+  },
+  "solution": {
+    "image_path": "output/images/page_130.png",
+    "verification": {
+      "status": "verification_needed",
+      "message": "Manual verification required",
+      "extracted_data": {
+        "solutionNumber": 60,
+        "cardLayout": {
+          "north": {
+            "spades": "\u2660 K 5 4 3",
+            "hearts": "\u2665 K 8",
+            "diamonds": "\u2666 K Q",
+            "clubs": "\u2663 A 6 4 3 2"
+          },
+          "east": {
+            "spades": "\u2660 J 9 8 7",
+            "hearts": "\u2665 Q",
+            "diamonds": "\u2666 9 5 4 3 2",
+            "clubs": "\u2663 K J 7"
+          },
+          "south": {
+            "spades": "\u2660 A Q 10 6 2",
+            "hearts": "\u2665 5 4 3 2",
+            "diamonds": "\u2666 A J 6",
+            "clubs": "\u2663 9"
+          },
+          "west": {
+            "spades": "\u2660 \u2014",
+            "hearts": "\u2665 A J 10 9 7 6",
+            "diamonds": "\u2666 10 8 7",
+            "clubs": "\u2663 Q 10 8 5"
+          }
+        },
+        "solutionExplanation": "The contract is easy, but an overtrick may be necessary for a good matchpoint score. The best chance is to play West for four or more clubs. In that case he can be squeezed in hearts and clubs. Declarer should lead a club to dummy's ace and a spade to his own ten, a diamond to the queen, ruff a club, cash the ace of diamonds, and lead the spade queen. If West, on this trick, comes down to a singleton heart, declarer lets the spade queen hold, ruffs a heart, and takes the rest in his hand. If West keeps two hearts, declarer overtakes the spade queen, ruffs a club, and takes the rest in dummy. We could have made your job more difficult by not telling you to lead the first spade to the ace (rather than the queen), but perhaps it's hard enough as it is.",
+        "keyTechniques": [
+          "squeeze",
+          "overtrick",
+          "ruffing"
+        ],
+        "image_path": "output/images/page_130.png",
+        "page_number": 130
+      }
+    }
+  }
+}
+
+Puzzle #41 Verification:
+{
+  "puzzle_number": 41,
+  "verification_time": "2025-07-04 08:50:10",
+  "problem": {
+    "image_path": "output/images/page_91.png",
+    "verification": {
+      "status": "verification_needed",
+      "message": "Manual verification required",
+      "extracted_data": {
+        "problemNumber": 41,
+        "gameType": "Rubber bridge",
+        "vulnerability": "Both sides vulnerable",
+        "cardLayout": {
+          "north": {
+            "spades": "A 8 6 2",
+            "hearts": "A",
+            "diamonds": "K 8 5 2",
+            "clubs": "A J 4 2"
+          },
+          "south": {
+            "spades": "K 9 5 4",
+            "hearts": "\u2014",
+            "diamonds": "A Q 7 6 4 3",
+            "clubs": "K 8 7"
+          },
+          "east": {},
+          "west": {}
+        },
+        "biddingSequence": [
+          {
+            "south": "\u2014",
+            "west": "\u2014",
+            "north": "1 \u2663",
+            "east": "Pass"
+          },
+          {
+            "south": "1 \u2666",
+            "west": "Pass",
+            "north": "3 \u2666",
+            "east": "Pass"
+          },
+          {
+            "south": "6 \u2666",
+            "west": "(All Pass)"
+          }
+        ],
+        "openingLead": "\u2666J",
+        "taskDescription": "How can South make certain of his contract?",
+        "image_path": "output/images/page_91.png",
+        "page_number": 91
+      }
+    }
+  },
+  "solution": {
+    "image_path": "output/images/page_92.png",
+    "verification": {
+      "status": "verification_needed",
+      "message": "Manual verification required",
+      "extracted_data": {
+        "solutionNumber": 41,
+        "cardLayout": {
+          "north": {
+            "spades": "\u2660 A 8 6 2",
+            "hearts": "\u2665 A",
+            "diamonds": "\u2666 K 8 5 2",
+            "clubs": "\u2663 A J 4 2"
+          },
+          "east": {
+            "spades": "\u2660 3",
+            "hearts": "\u2665 Q 8 7 6 5 4 3 2",
+            "diamonds": "\u2666 \u2014",
+            "clubs": "\u2663 Q 10 9 5"
+          },
+          "south": {
+            "spades": "\u2660 K 9 5 4",
+            "hearts": "\u2665 \u2014",
+            "diamonds": "\u2666 A Q 7 6 4 3",
+            "clubs": "\u2663 K 8 7"
+          },
+          "west": {
+            "spades": "\u2660 Q J 10 7",
+            "hearts": "\u2665 K J 10 9",
+            "diamonds": "\u2666 J 10 9",
+            "clubs": "\u2663 6 3"
+          }
+        },
+        "solutionExplanation": "Declarer should draw three rounds of trumps ending in dummy, cash the ace of hearts for a club discard, lead a club to the king, and play a spade towards dummy. If West plays an honor, declarer can take the spade and club aces and lead a spade to the nine. West is end-played: if he plays a spade declarer will have no further loser in the suit, and if he plays a club, a trick will be established in dummy. If West plays the three or seven of spades, declarer can finesse dummy's eight, end-playing East. A club lead will give declarer the needed discard, and a spade lead will destroy East's remaining stopper in that suit (if any).",
+        "keyTechniques": [
+          "end-play",
+          "finesse",
+          "discard"
+        ],
+        "image_path": "output/images/page_92.png",
+        "page_number": 92
+      }
+    }
+  }
+}
+
+Puzzle #52 Verification:
+{
+  "puzzle_number": 52,
+  "verification_time": "2025-07-04 08:50:10",
+  "problem": {
+    "image_path": "output/images/page_113.png",
+    "verification": {
+      "status": "verification_needed",
+      "message": "Manual verification required",
+      "extracted_data": {
+        "problemNumber": 52,
+        "gameType": "Rubber bridge",
+        "vulnerability": "North-South vulnerable",
+        "cardLayout": {
+          "north": {
+            "spades": "\u2660 9 5 2",
+            "hearts": "\u2665 8 4",
+            "diamonds": "\u2666 K 10 8",
+            "clubs": "\u2663 A K J 9 6"
+          },
+          "south": {
+            "spades": "\u2660 A Q 8",
+            "hearts": "\u2665 \u2014",
+            "diamonds": "\u2666 A Q J 9 6 4 3 2",
+            "clubs": "\u2663 7 2"
+          },
+          "east": {},
+          "west": {}
+        },
+        "biddingSequence": [
+          {
+            "south": "2 \u2666"
+          },
+          {
+            "west": "Pass"
+          },
+          {
+            "north": "3 \u2663"
+          },
+          {
+            "east": "Pass"
+          },
+          {
+            "south": "3 \u2666"
+          },
+          {
+            "west": "Pass"
+          },
+          {
+            "north": "6 \u2666"
+          },
+          {
+            "east": "(All pass)"
+          }
+        ],
+        "openingLead": "\u2666",
+        "taskDescription": "What is the best play for the contract? Is the slam certain?",
+        "image_path": "output/images/page_113.png",
+        "page_number": 113
+      }
+    }
+  },
+  "solution": {
+    "image_path": "output/images/page_114.png",
+    "verification": {
+      "status": "verification_needed",
+      "message": "Manual verification required",
+      "extracted_data": {
+        "solutionNumber": 52,
+        "cardLayout": {
+          "north": {
+            "spades": "\u2660 9 5 2",
+            "hearts": "\u2665 8 4",
+            "diamonds": "\u2666 K 10 8",
+            "clubs": "\u2663 A K J 9 6"
+          },
+          "east": {
+            "spades": "\u2660 10 4",
+            "hearts": "\u2665 A K J 10 6",
+            "diamonds": "\u2666 5",
+            "clubs": "\u2663 Q 10 8 4 3"
+          },
+          "south": {
+            "spades": "\u2660 A Q 8",
+            "hearts": "\u2665 \u2014",
+            "diamonds": "\u2666 A Q J 9 6 4 3 2",
+            "clubs": "\u2663 7 2"
+          },
+          "west": {
+            "spades": "\u2660 K J 7 6 3",
+            "hearts": "\u2665 Q 9 7 5 3 2",
+            "diamonds": "\u2666 7",
+            "clubs": "\u2663 5"
+          }
+        },
+        "solutionExplanation": "The slam is certain. South should win the trump lead in dummy, ruff a heart, lead a club to dummy's ace, ruff another heart, and lead a club to the king. Next, South should lead a spade from dummy and beat East's card as cheaply as possible. Assuming West wins this trick, he is end-played: a spade lead will be into declarer's major tenace; a heart lead will give declarer a ruff-sluff; and if West has a club to lead, a lead of that suit will establish a discard in dummy. The key to the end play is for declarer to cash both of dummy's high clubs before starting spades\u2014if he does not do this, a club exit by West will leave declarer with a guess.",
+        "keyTechniques": [
+          "end-play",
+          "ruff",
+          "tenace",
+          "ruff-sluff"
+        ],
+        "image_path": "output/images/page_114.png",
+        "page_number": 114
+      }
+    }
+  }
+}
+
